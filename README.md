@@ -78,7 +78,7 @@ To set up your environment for running these examples:
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/yourusername/selenium-with-java-example.git
+    git clone https://github.com/brijeta/selenium-with-java-example.git
     ```
 
 2. Import the project into your preferred IDE.
@@ -101,15 +101,14 @@ Contributions are welcome! If you have examples or topics related to Selenium th
 3. Add your examples and documentation.
 4. Submit a pull request for review.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
 
 For any questions, suggestions, or feedback, feel free to reach out.
 
-- **Email:** your.email@example.com
-- **GitHub:** [yourusername](https://github.com/yourusername)
-- **LinkedIn:** [Your LinkedIn](https://www.linkedin.com/in/yourprofile/)
+- **Email:** brijetaghevariya@gmail.com
+- **GitHub:** (https://github.com/brijeta)
+
+
+
 
