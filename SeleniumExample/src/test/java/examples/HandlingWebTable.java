@@ -1,8 +1,6 @@
 package examples;
 
-import java.text.DecimalFormat;
 import java.time.Duration;
-import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -10,10 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 
 public class HandlingWebTable {
 
@@ -30,8 +25,7 @@ public static void main(String[] args) {
 		List<WebElement> col = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//table[@name='BookTable']//th")));
 		System.out.println("Number of row:  "+rows.size());
 		System.out.println("Number of col:  "+col.size());
-		//3) read data from specific row and column(ex . 5th row and col 1st)
-		String bookname =driver.findElement(By.xpath("//table[@name='BookTable']//tr[5]//td[1]")).getText();
+		driver.findElement(By.xpath("//table[@name='BookTable']//tr[5]//td[1]")).getText();
 		//4) read data from all the rows and columns(first row is th tag header)
 		for(int r=2; r<=rows.size();r++) {
 			for(int c=1;c<=col.size();c++) {

@@ -42,7 +42,7 @@ public class HandlingFrames {
 		
 		//Example of : handle a form that is dynamically loaded or updated with in iframe.
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		WebElement formField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("textFieldName")));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("textFieldName")));
 		
 		
 		// Switch back to the default content

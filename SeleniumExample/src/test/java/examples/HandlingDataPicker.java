@@ -4,7 +4,6 @@ import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,13 +14,10 @@ public class HandlingDataPicker {
 
 	private WebDriver driver;
     private WebDriverWait wait;
-    private JavascriptExecutor js;
-
     public HandlingDataPicker() {
         // Initialize WebDriver, WebDriverWait, and JavaScriptExecutor
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        js = (JavascriptExecutor) driver;
     }
 
     private void selectDate(String month, String year, String day) {
