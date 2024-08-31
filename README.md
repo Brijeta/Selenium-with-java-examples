@@ -19,11 +19,15 @@ This repository contains sample projects that demonstrate the use of Selenium wi
 
 ## Topics Covered
 
-1. **Locators and Actions in Selenium with Java**
-   - Selenium locators - basic vs customized
-   - Locators - CSS Selector
-   - Locators - XPath | XPath Functions
-   - Locators - XPath Axes
+1. **Locators in Selenium with Java**
+   - Here are the most commonly used locators:
+     1) ID
+     2) Name
+     3) Class Name
+     4) Tag Name
+     5) Link Text
+     6) Partial Link Text
+     7) XPath
 
 2. **WebDriver Methods**
    - WebDriver Methods
